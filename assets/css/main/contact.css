@@ -1,0 +1,107 @@
+.contact__main {
+    background: var(--background-secondary);
+    display: grid;
+    gap: 1rem;
+    grid-template-areas: "photo contact";
+    margin: auto;
+    padding: 3rem;
+}
+
+.contact__main___form {
+    grid-area: contact;
+}
+
+.contact__main___image {
+    grid-area: photo;
+}
+
+.contact__main___image img {
+    width: 30vw;
+    border-radius: 50%;
+}
+
+
+/*Form*/
+
+.contact__form {
+    background: var(--background-third);
+    border-radius: 10px;
+    margin: 1rem auto 1rem auto;
+    overflow: hidden;
+    height: 8vh;
+    width: 100%;
+    -webkit-box-shadow: 1px 4px 9px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 4px 9px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 4px 9px -5px rgba(0, 0, 0, 0.75);
+}
+
+.contact__form___msg {
+    height: 12vh;
+}
+
+.contact__form___input {
+    border: none;
+    border-bottom: 1px solid var(--color);
+    outline: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.contact__form___label--disable,
+.contact__form___label--enable {
+    color: var(--color);
+    font-size: 1rem;
+    position: absolute;
+    transition: all 0.3s ease;
+    margin-left: 1rem;
+
+}
+
+.contact__form___label--disable {
+    margin-top: .7rem;
+}
+
+.contact__form___label--enable {
+    color: var(--color-secondary);
+    margin-top: .2rem;
+}
+
+.contact__form>.contact__form___input:focus,
+.contact__form>.contact__form___input:valid {
+    border-bottom: solid 3px var(--color-secondary);
+}
+
+
+/*Tablet or Ipad*/
+
+@media (max-width:900px) {
+    .contact__main {
+        display: grid;
+        gap: 0%;
+        grid-template-areas: "contact";
+        margin: 0%;
+        padding: 1rem;
+    }
+    .contact__main___image {
+        display: none;
+    }
+    .contact__form {
+        height: 4vh;
+        width: 100%;
+    }
+    .contact__form___msg {
+        height: 12vh;
+    }
+}
+
+
+/*Smartphone or Iphone*/
+
+@media (max-width:400px) {
+    .contact__form {
+        height: 7vh;
+    }
+    .contact__form___msg {
+        height: 12vh;
+    }
+}

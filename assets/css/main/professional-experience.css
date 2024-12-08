@@ -1,0 +1,54 @@
+.professional-experience__main___section {
+    display: grid;
+    grid-template-areas: "first-article second-article";
+    margin: 3rem 5rem;
+}
+
+.professional-experience__first___article {
+    grid-area: first-article;
+}
+
+.professional-experience__second___article {
+    grid-area: second-article;
+}
+
+.professional-experience__img {
+    width: 55vw;
+    margin: 0%;
+}
+
+.professional-experience__information {
+    text-align: left;
+    margin: 7rem 0 7rem 0;
+}
+
+@media (max-width:900px) {
+    .professional-experience__main___section {
+        grid-template-areas: "first-article" "second-article";
+        margin: 0%;
+        padding: 1rem;
+    }
+    .professional-experience__main .professional-experience__first___article:nth-child(even) {
+        grid-area: second-article;
+    }
+    .professional-experience__img {
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+    .professional-experience__information {
+        text-align: left;
+        margin: 0%;
+        padding: 0%;
+    }
+}
+
+
+/*Smartphone or Iphone*/
+
+@media (max-width:400px) {
+    .professional-experience__information {
+        margin: auto;
+        width: 100%;
+    }
+}

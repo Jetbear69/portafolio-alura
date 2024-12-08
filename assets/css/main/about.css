@@ -1,0 +1,24 @@
+.main__about {
+    background-color: var(--background-secondary);
+    text-align: left;
+    padding: 5rem;
+    margin: auto;
+}
+
+.main__about___div {
+    width: 55vw;
+}
+
+
+/*Tablet or Ipad*/
+
+@media (max-width:900px) {
+    .main__about {
+        padding: 2rem;
+        margin: auto;
+    }
+    .main__about___div {
+        margin: auto;
+        width: 100%;
+    }
+}

@@ -1,0 +1,46 @@
+.main__title___about {
+    text-align: center;
+    padding: 2rem;
+}
+
+.main__title___about::first-letter {
+    text-transform: uppercase;
+}
+
+.main__hobbies .gallery .article__gallery,
+.main__skills .gallery .article__gallery {
+    width: 15%;
+    padding: 3rem 0 0 .7rem;
+}
+
+.main__hobbies .gallery .article__gallery img,
+.main__skills .gallery .article__gallery img {
+    width: 4vw;
+}
+
+
+/*tablet or Ipad*/
+
+@media (max-width:900px) {
+    .main__title___about {
+        padding: 1rem;
+    }
+    .main__hobbies .gallery .article__gallery,
+    .main__skills .gallery .article__gallery {
+        width: 30%;
+    }
+}
+
+
+/*Smartphone or Iphone*/
+
+@media (max-width:400px) {
+    .main__hobbies .gallery .article__gallery,
+    .main__skills .gallery .article__gallery {
+        width: 45%;
+    }
+    .main__hobbies .gallery .article__gallery img,
+    .main__skills .gallery .article__gallery img {
+        width: 5vw;
+    }
+}

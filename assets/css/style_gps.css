@@ -1,0 +1,52 @@
+.navbar{
+    background-color: #f7f7f7 !important;
+}
+
+.navbar .navbar-nav>li>a span.username {
+    background-color: #2bc0e0 !important;
+    border:0.7px solid #2a8599 !important;
+}
+
+.navbar .navbar-nav>li>a.settings>i {
+    background-color: #2bc0e0 !important;
+    border:0.7px solid #2a8599 !important;
+}
+
+.navbar .user-menu>li ul.dropdown-menu>li>a {
+    color: #2bc0e0 !important;
+}
+
+.btn-submit {
+    background: #2bc0e0 !important;
+}
+
+.sidebar-holder>.nav>li>a:hover {
+    background-color: #1b778b;
+}
+
+.navbar {
+    border-bottom: 2px solid #2bc0e0 !important;
+}
+
+.alert-info {
+    color: #2bc0e0 !important;
+}
+
+.navbar .navbar-nav>li>a .user-avatar {
+	border: 3px solid #f7f7f7;
+	background-color: #f7f7f7;
+}
+
+.input-group-text-green {
+    background-color: #2bc0e0 !important;
+}
+
+.login-box {
+    background-color: #f7f7f7 !important;
+    border-radius: 15px !important;
+	border:none !important;
+}
+
+.login-box h1 {
+    color: #2bc0e0 !important;
+}

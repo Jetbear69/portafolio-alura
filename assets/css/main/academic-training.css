@@ -1,0 +1,51 @@
+.academic-training__main {
+    background: var(--background-secondary);
+}
+
+.academic-training___section .card__academic {
+    text-align: center;
+    padding: .7rem;
+    width: 30%;
+}
+
+.card__academic .article__gallery___img {
+    margin: auto;
+    width: 10vw;
+    height: 20vh;
+}
+
+.card__academic .article__gallery___img img {
+    margin: 2rem;
+    width: 50%;
+}
+
+
+/*tablet or Ipad*/
+
+@media (max-width:900px) {
+    .card__academic .article__gallery___img {
+        width: 7vw;
+        height: 5vh;
+    }
+    .card__academic .article__gallery___img img {
+        margin: .75rem;
+    }
+}
+
+
+/*Smartphone or Iphone*/
+
+@media (max-width:400px) {
+    .academic-training___section .card__academic {
+        width: 100%;
+    }
+    .card__academic .article__gallery___img {
+        width: 85%;
+        height: 26vh;
+        padding: .75rem;
+    }
+    .card__academic .article__gallery___img img {
+        width: 60%;
+        margin: auto;
+    }
+}
